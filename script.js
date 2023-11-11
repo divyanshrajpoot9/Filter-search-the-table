@@ -81,7 +81,7 @@ const populateTableData = () => {
     myTableRef.innerHTML = tableRow;
 };
 
-// populateTableData();
+populateTableData();
 
 const myInput = document.getElementById('myInput');
 myInput.addEventListener('keyup', (e) => {
